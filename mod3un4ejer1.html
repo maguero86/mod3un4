@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Matias Aguero - Tarea Unidad 4</title>				
+		<link rel="stylesheet" href="estilos.css"/>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<center>
+			<h2>EJERCICIO 1</h2>
+			<div class="contenedor-flex">
+				<div id="roja" class="caja" onclick='changeColor("rojo")'>&nbsp;</div>
+				<div id="azul" class="caja" onclick='changeColor("azul")'>&nbsp;</div>
+				<div id="verde" class="caja" onclick='changeColor("verde")'>&nbsp;</div>
+			</div>
+			<h2>EJERCICIO 2</h2>
+			<div>
+				<textarea col="10" rows="10" onkeyup="countChar(this)"></textarea>
+				<br/>
+				<div id="counter"></div>
+			</div>
+			<h2>EJERCICIO 3</h2>
+			<div>
+				<script type="text/javascript">
+					var alumnos = [
+							  {
+								nombre: 'Juan Gomez',
+								nota: 7
+							  }, {
+								nombre: 'Pedro Rodriguez',
+								nota: 4
+							  }, {
+								nombre: 'Roxana García',
+								nota: 8
+							  }, {
+								nombre: 'Luciano Lopez',
+								nota: 5
+							  }, {
+								nombre: 'Fernanda Gimenez',
+								nota: 6
+							  }, {
+								nombre: 'Florencia Martinez',
+								nota: 10
+							  }, {
+								nombre: 'Raul Sanchez',
+								nota: 7
+							  }, {
+								nombre: 'Sandra Figueroa',
+								nota: 8
+							  }
+							];
+				</script>
+				<button onclick="approved(alumnos)">Calcular</button>
+			</div>		
+		</center>
+	</body>
+</html>

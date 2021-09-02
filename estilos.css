@@ -1,0 +1,27 @@
+.contenedor-flex{
+	border-style: solid;
+	background-color: white;
+	width: 600px; 
+	height: 600px;
+	display: flex;     
+	flex-direction: row-reverse;	         
+	align-items: center;
+	justify-content: center;
+}
+
+.caja{
+	width: 200px; 
+	height: 200px
+}
+
+#roja{
+	background-color: red;
+}
+
+#azul{
+	background-color: blue;
+}
+
+#verde{
+	background-color: green;
+}
